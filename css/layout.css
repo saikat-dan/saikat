@@ -331,14 +331,14 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .mysql {
-  	width: 55%;
+  	width: 75%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
+.javascript {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 .css {
   	width: 90%;
@@ -364,7 +364,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -389,7 +389,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -793,7 +793,7 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+ /* #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -825,12 +825,23 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
-}
+} */
 #contact .header-col { padding-top: 6px; }
 
+#contact .contactdetails{
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+   font-size: 15px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   color: #fff;
 
+}
+.email{
+    text-align: center;
+}
 /* contact form */
-#contact form { margin-bottom: 30px; }
+/* #contact form { margin-bottom: 30px; }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
@@ -898,7 +909,7 @@ call-to-action .button {
    position: relative;
    left: 18px;
    top: 17px;
-}
+} */
 
 
 /* Twitter Feed */
