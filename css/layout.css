@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -327,13 +327,13 @@ ul#nav li.current a { color: #F06000; }
 
 .android {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: android 2s ease;
+  	-webkit-animation: android 2s ease;
 }
 .mysql {
   	width: 75%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: mysql 2s ease;
+  	-webkit-animation: mysql 2s ease;
 }
 .javascript {
   	width: 50%;
@@ -356,11 +356,11 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes android {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes mysql {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
@@ -381,11 +381,11 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes android {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes mysql {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
